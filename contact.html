@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+<style>
+
+header, footer	{
+	font-size: 3em;
+	padding: 25px;
+	width: 100%;
+	height: auto; 
+	position: static;
+}
+.warna	{
+	background-color: #00BFFF;
+	color: #FF6347;
+}
+ul.atas {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #FF6347;
+}
+li	{
+	float: left;
+}
+li a.aktif	{
+	background-color: #00BFFF;
+}
+li a, .dropbtn	{
+	display: inline-block;
+	text-align:center;
+	text-decoration: none;
+	color: #00BFFF;
+}
+li a:hover, .dropdown:hover .dropbtn	{
+	background-color: #00BFFF;
+}
+li.dropdown	{
+	display: inline-block;
+}
+.dropdown-content	{
+	display: none;
+	position: absolute;
+	background-color: #FF6347;
+	min-width: auto;
+	box-shadow: 10px 14px 16px 10px rgba(0,0,0,0.2);
+}
+.dropdown-content a	{
+	color: #FF6347;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a: hover {background-color: #FF6347}
+.dropdown:hover .dropdown-content	{
+	display: block;
+}
+a:link, a:visited	{
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	color: black;
+	font-size: 18px;
+}
+.menu a:hover, a:active {
+    background-color: #00BFFF;
+}
+body {
+	background-color: lightblue;
+}
+nav {
+	margin: 150px;
+	overflow: hidden;
+}
+div.img	{
+	margin: 2px;
+	float: right;
+	width: 200px;
+	margin: 2px
+}
+div.img img	{
+	width: 100%;
+	height: auto;
+}
+div.gbr	{
+	text-align: center;
+}
+div.size	{
+	font-size: 16px;
+}
+nav {
+    float: left;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+	height: 1200px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}  
+nav ul a {
+    text-decoration: none;
+}
+input[type=text]	{
+	width: 170px;
+	padding: 10px 15px;
+	margin: 1px 0;
+	box-sizing: border-box;
+	border: 1px solid #f44336 ;
+	background-color: white;
+	color: grey;
+}
+input[type=password]	{
+	width: 170px;
+	padding: 10px 15px;
+	margin: 1px 0;
+	box-sizing: border-box;
+	border: 1px solid #f44336 ;
+	background-color: white;
+	color: grey;
+}
+.masuk	{
+	font-size: 16px;
+	color: #00BFFF;
+}
+.button	{
+	border: none;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px; 
+	margin: 0 1em;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.share:hover {
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.resep	{
+	font-size: 18px;
+	font-family: times new roman;
+}
+</style>
+</head>
+<body>
+<header class="warna"><b>Frila Chef</b>
+	<img src="12/sayur.png" alt="Frila Chef Images" width="150px" height="120px" 
+	style="float:right;"></header>
+<ul class="atas">
+  <li><a href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/list.html#"><b>Home</b></a></li>
+  <li><a href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/Join%20Us.html"><b>Join Us</b></a></li>
+  <li><a class="aktif" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/contact.html"><b>Contact</b></a></li>
+  <li class="dropdown">
+	<a href="#" class="dropbtn"><b>Galery</b></a>
+	<div class="dropdown-content">
+		<a href="#"><b>Images<b></a><br>
+		<a href="#"><b>Audio</b></a><br>
+		<a href="#"><b>Video</b></a>
+	</div>
+	<li><a href="#contact"><b>Info</b></a></li>
+	</li>
+</ul>
+
+<h1 style="text-align:center;font-size:25px;">
+	<br>About Me<h1>
+
+<aside>
+<p style="text-align:right;font-size:25px;margin:30px"><ins>Sampel Resep<ins><p>
+<!-- Menu makanannya dari sini -->
+<!-- Ayam Goreng Bumbu Cabe -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/Ayam%20goreng%20BC.html">
+		<img src="12/ayam.jpg" alt="Ayam Goreng Bumbu Cabe" width="800" height="500">
+	<div class="gbr size">Ayam Goreng Bumbu Cabe</div>
+	</a>
+<!-- Cheese Omelette Sozis -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/Chesse%20Omellette%20delice.html">
+		<img src="12/telur.png" alt="Chesse Ommelette Sozis" width="600" height="300">
+	<div class="gbr size">Chesse Ommelette Sozis</div>
+	</a>
+<!-- Vanila ice creamy Wafle -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/vanilla.html">
+		<img src="12/es.jpg" alt="Vanilla Ice Creamy Wafle" width="600" height="300">
+	<div class="gbr size">Vanilla Ice Creamy Wafle</div>
+	</a>
+<!-- Fresh Orenge Juice -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/Yogurt.html">
+		<img src="12/juss.jpg" alt="Fresh Strawberry Yogurt Juice">
+	<div class="gbr size">Fresh Strawberry Yogurt Juice</div>
+	</a>
+<!-- Creamy Latte Cappuchino -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/coffe.html">
+		<img src="12/kopi.jpg" alt="Creamy Latte Cappuchino">
+	<div class="gbr size">Creamy Latte Cappuchino</div>
+	</a>
+<!-- Strawberry Sweet Cake -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/cake.html">
+		<img src="12/kue.jpg" alt="Strawberry Sweet Cake">
+	<div class="gbr size">Strawberry Sweet Cake</div>
+	</a>
+<!-- Pudding Chocolate White Creamy -->
+<div class="img menu">
+	<a target="_self" href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/Pudding.html">
+		<img src="12/ager.jpg" alt="Pudding Chocolate White Creamy">
+	<div class="gbr size">Pudding Chocolate White Creamy</div>
+	</a>
+</aside>
+<nav style="font-size:16px;color:#FF6347">
+<!--Article di samping-->
+<b>Cara Menjalani Pola Hidup Sehat yang Benar dan Mudah:</b><br><br>
+1. Ketahui kondisi kesehatan diri sendiri saat ini<br>
+2. Lakukan kegiatan fisik (olahraga)<br>
+3. Pilih makanan yang tepat<br>
+4. Hindarilah kebiasaan buruk<br>
+5. Mengelola stres<br>
+6. Istirahat cukup dan teratur<br>
+7. Perbanyak minum air putih<br>
+8. Menjaga kebersihan<br>
+<!--Article di samping-->
+	<p class="masuk" style="font-size:20px;margin:12px 35px;"><ins>Log in</ins></p>
+<form action="demo_form.asp" method="get">
+	<label class="masuk" for="email"><ins>E-mail</ins></label><br>
+	<input type="text" id="email" name="email"><br>
+	<label class="masuk" for="pwd"><ins>Password</ins></label><br>
+	<input type="password" id="password" name="password"><br>
+	<input type="submit" class="warna button share" style="padding:12px 15px;margin:12px 45px;"name="Log in" value="Log In"></input>
+</form>
+
+<!-- Share -->
+<p style="margin:12px 35px;font-size:20px"><ins>Share With:<ins><p>
+<a href="#" target="_blank">
+	<abbr title="Facebook"><img class="share" src="12/fb.png" alt="Facebook" width="30px" height="30px" 
+	style="float:center;margin:5px 35px;"></abbr></a><br>
+<a href="#" target="_blank">
+	<abbr title="Twitter"><img class="share" src="12/twitter.png" alt="Twitter" width="30px" height="30px" 
+	style="float:center;margin:5px 35px;"></abbr></a>
+<a href="#" target="_blank">
+	<abbr title="Google+"><img class="share" src="12/google.png" alt="Google" width="30px" height="30px" 
+	style="float:center;margin:5px 35px;"></abbr></a><br>
+<a href="#" target="_blank">
+	<abbr title="Like on facebook"><img class="share" src="12/suka.png" alt="Like" width="30px" height="30px" 
+	style="float:center;margin:5px 35px;"></abbr></a>
+<!-- Share -->
+
+</nav>
+
+<article>
+
+<p style="font-size:20px">Nama:Afrila Bimaris<img src="12/afril.jpg" alt="Afrila Bimaris" width="200px" height="200px" style="float:right"></p>
+<p style="font-size:20px">Alamat: Jl.Pondok pengalasan Gg.I no.3 buana raya Denpasar Bali</p>
+<p style="font-size:20px">Tempat,tanggal lahir: Sukabumi,07-april-1998</p>
+<p style="font-size:20px">Agama: Islam</p>
+
+<abbr title="email"><img src="12/email.png" alt="email" width="60px" height="40px" style="padding:0 20px;margin:0 20px;">
+afrilabimaris@gmail.com</img><br>
+
+<abbr title="Facebook"><img src="12/fb.png" alt="facebook" width="50px" height="50px" style="padding:0 20px;margin:0 20px;">
+Afrila Bimaris</img><br>
+
+<abbr title="instagram"><img src="12/ig.png" alt="Instagram" width="50px" height="50px" style="padding:0 20px;margin:0 20px;">
+@afrilabima</img><br>
+
+<abbr title="line"><img src="12/line.png" alt="Line" width="50px" height="50px" style="padding:0 20px;margin:0 20px;">
+id:afrilabimaris</img><br>
+
+<abbr title="Whatsapp"><img src="12/wa.png" alt="Whatsapp" width="50px" height="50px" style="padding:0 20px;margin:0 20px;">
+0858-6111-3313</img><br>
+
+<abbr title="BBM"><img src="12/bbm.png" alt="BBM" width="50px" height="50px" style="padding:0 20px;margin:0 20px;">
+D0A84C7A</img>
+<br><br><br><br><br><br><br><br><br><br>
+<p style="font-size:20px;color:red;margin:30px;">Dapatkan pengalaman memasak terbaik untuk anda dan keluarga dengan mendapatkan pelajaran 
+<br>memasak dari kami menggunakan teks,video atau audio,<br>
+	ayo daftarkan diri anda sekarang !!! </p><br>
+<button class="warna button share"><b>Daftar disini</b></button>
+<button class="warna button share"><b>Daftar disini</b></button>
+<button class="warna button share"><b>Daftar disini</b></button>
+<button class="warna button share"><b>Daftar disini</b></button>
+
+
+</article>
+
+<footer  class="menu"><a href="file:///C:/Users/gusman%20widodo/Desktop/Latihan%201/list.html#" style="font-size:25px;text-align:center">
+<i>www.frilachef.com www.frilachef.com www.frilachef.com www.frilachef.com www.frilachef.com www.frilachef.com</i></footer>
+</body>
+</html>
+
+
