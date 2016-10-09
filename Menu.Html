@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+<style>
+
+header	{
+	font-size: 3em;
+	padding: 25px;
+	width: 96%;
+	height: auto; 
+	position: static;
+}
+.warna	{
+	background-color: #00BFFF;
+	color: #FF6347;
+}
+ul.atas {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #FF6347;
+}
+li	{
+	float: left;
+}
+li a.aktif	{
+	background-color: #00BFFF;
+}
+li a, .dropbtn	{
+	display: inline-block;
+	text-align:center;
+	text-decoration: none;
+	color: #00BFFF;
+}
+li a:hover, .dropdown:hover .dropbtn	{
+	background-color: #00BFFF;
+}
+li.dropdown	{
+	display: inline-block;
+}
+.dropdown-content	{
+	display: none;
+	position: absolute;
+	background-color: #FF6347;
+	min-width: auto;
+	box-shadow: 10px 14px 16px 10px rgba(0,0,0,0.2);
+}
+.dropdown-content a	{
+	color: #FF6347;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a: hover {background-color: #FF6347}
+.dropdown:hover .dropdown-content	{
+	display: block;
+}
+a:link, a:visited	{
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	color: black;
+	font-size: 18px;
+}
+body {
+	background-color:pink;
+}
+.button	{
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px; 
+	cursor: pointer;
+	border-radius: 15%;
+	width: 15em;
+	height: 7em;
+}
+.share:hover {
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+</style>
+</head>
+<body>
+<header class="warna"><b>Frila Chef</b>
+	<img src="12/sayur.png" alt="Frila Chef Images" width="150px" height="120px" 
+	style="float:right;"></header>
+<ul class="atas">
+  <li><a  href="file:///C:/xampp/htdocs/webpractice1/Home.html"><b>Home</b></a></li>
+  <li><a class="aktif" href="file:///C:/xampp/htdocs/webpractice1/Menu.html"><b>Menu</b></a></li>
+  <li class="dropdown">
+	<a href="#" class="dropbtn"><b>Galery</b></a>
+	<div class="dropdown-content">
+		<a href="#"><b>Images<b></a><br>
+		<a href="#"><b>Audio</b></a><br>
+		<a href="#"><b>Video</b></a>
+	</div></li>
+	<li><a href="file:///C:/xampp/htdocs/webpractice1/contact.html"><b>Contact</b></a></li>
+	<li><a href="#contact"><b>Info</b></a></li>
+</ul>
+
+<h1 style="text-align:center;font-size: 35px;">
+	Frila Chef<br>Masak Sesuai Makanan yang Kamu Inginkan<h1>
+
+<a href="#Makanan"><button class="warna button share" style="margin:6em 11em;float:left;"><b>Makanan</b></button></a>
+<a href="#Minuman"><button class="warna button share" style="margin:5em 10em;float:right;"><b>Minuman</b></button></a>
+
+
+</body>
+</html>
+
+
